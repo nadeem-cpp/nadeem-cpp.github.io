@@ -17,16 +17,18 @@ body
 }
 
 #profile {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
     overflow: hidden;
 }
 
-#profile img {
-    filter: blur(1px);
-    width: 100%;
-    height: auto;
+#logo img {
+    /* filter: blur(1px); */
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    overflow: hidden;
 }
 
 /* chatbot */
