@@ -138,3 +138,20 @@ body
 {
     border: 1px solid grey;
 }
+
+/* responsive */
+@media (max-width: 786px){
+    .row{
+        flex-direction: column-reverse;
+    }
+    #social{
+        margin-top: 20px;
+    }
+}
+
+/* icons */
+.icons img
+{
+    /* width: 100px; */
+    /* aspect-ratio: 1/1; */
+}
