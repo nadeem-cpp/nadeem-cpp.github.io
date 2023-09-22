@@ -24,8 +24,11 @@ body
 }
 
 #logo img {
-    width: 100px;
-    height: 100px;
+    /* background-color: #007BFF; */
+    width: 50%;
+    /* height: 100px; */
+    aspect-ratio: 3/3;
+    object-fit: contain;
     border-radius: 100px;
     overflow: hidden;
 }
@@ -137,6 +140,12 @@ body
 .skillCard
 {
     border: 1px solid grey;
+    /* color: aqua; */
+}
+.skillCard:hover
+{
+    color: aqua;
+    background-color: bisque;
 }
 
 /* responsive */
@@ -147,11 +156,24 @@ body
     #social{
         margin-top: 20px;
     }
+    #logo img {
+        background-color:red;
+        width: 100%; 
+        display: none;
+    }
+
 }
 
 /* icons */
+/* .backendIcons img
+{
+    width: 20%;
+    aspect-ratio: 2/1   ;
+    object-fit: contain;
+} */
 .icons img
 {
-    /* width: 100px; */
-    /* aspect-ratio: 1/1; */
+    /* width: 20%; */
+    aspect-ratio: 2/1   ;
+    object-fit: contain;
 }
