@@ -11,3 +11,6 @@ document.addEventListener("DOMContentLoaded", function () {
       document.querySelector("#github").href = data.github
     })
 })
+
+var currentYear = new Date().getFullYear();
+$("#year").html(currentYear)
