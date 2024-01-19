@@ -30,7 +30,20 @@ body
 /* responsive */
 @media (max-width: 786px){
     .row{
+        flex-direction: column;
+    }
+    .about
+    {
         flex-direction: column-reverse;
+
+    }
+    .display-5
+    {
+        margin-bottom: 20px;
+    }
+    .chatbot-container
+    {
+        /* width: 10%; */
     }
     #social{
         margin-top: 20px;
