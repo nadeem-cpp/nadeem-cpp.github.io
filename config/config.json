@@ -1,9 +1,81 @@
 {
-    "name": "Muhammad Nadeem",
-    "jobTitle": "DevOps Engineer | Solution Archict",
-    "about": "Associate Cloud Engineer with 1+ years of experience in designing, developing, and maintaining cloud-based applications. AWS Certified Cloud Practitioner, demonstrating my understanding of the fundamental concepts of AWS and my ability to navigate the AWS Management Console, understand AWS security measures, and define the benefits of cloud computing. Strong skills in Python, Flask, and other programming languages. Experience with cloud security, networking, and storage. Excellent problem-solving and troubleshooting skills."
-    ,
-    "calendly": "#",
-    "linkedin": "#",
-    "github": "#"
+    "intro":{
+        "name": "Muhammad Nadeem",
+        "jobTitle": "DevOps Engineer | Solution Archict",
+        "about": "Associate Cloud Engineer with 1+ years of experience in designing, developing, and maintaining cloud-based applications. AWS Certified Cloud Practitioner, demonstrating my understanding of the fundamental concepts of AWS and my ability to navigate the AWS Management Console, understand AWS security measures, and define the benefits of cloud computing. Strong skills in Python, Flask, and other programming languages. Experience with cloud security, networking, and storage. Excellent problem-solving and troubleshooting skills.",
+        "calendly": "#",
+        "linkedin": "https://www.linkedin.com/in/muhammadnadeem10",
+        "github": "https://github.com/nadeem-cpp"
+    },    
+    "education": [
+        {
+            "schoolName": "Punjab University College of information Technology, Lahore",
+            "logo": "images/pucit.png",
+            "degree": "BS in information Technology",
+            "from": "2020",
+            "to": "2024" 
+        },
+        {
+            "schoolName": "Punjab University College of information Technology, Lahore",
+            "logo": "images/pucit.png",
+            "degree": "BS in information Technology",
+            "from": "2020",
+            "to": "2024" 
+        }
+    ],
+    "certificates": [
+        {
+            "title": "Amazon Web Services Cloud Practitioner",
+            "logo": "https://media.licdn.com/dms/image/C560BAQER_QnUTXrPJw/company-logo_200_200/0/1670264051233/amazon_web_services_logo?e=1713398400&v=beta&t=HzATN-RMsp80NtMydkTqmGXrEvR_ULQjFXjtQxuIuUM",
+            "provider": "Amazon Web Services (AWS)",
+            "from": "jul 2022", 
+            "to": "Jul 2025", 
+            "cred": "https://www.credly.com/badges/6a915d8c-5383-4aa9-ad98-ee0a7931584c/public_url"
+        },
+        {
+            "title": "Linux command line power user",
+            "logo": "https://media.licdn.com/dms/image/C4D0BAQFQr9e68bBOPQ/company-logo_200_200/0/1630536914848/udemy_logo?e=1713398400&v=beta&t=lMdHpGndWRHB2oeop4PnTyMEzCQ0HOiIz4cQxRm9o6A",
+            "provider": "Udemy",
+            "from": "Oct 2022", 
+            "to": "-", 
+            "cred": "https://www.udemy.com/certificate/UC-9085a622-e646-4492-a832-4c1ba948a8e7/"
+        },
+        {
+            "title": "Jira Fundamentals Badge",
+            "logo": "https://media.licdn.com/dms/image/C560BAQH5FOSGbPkisg/company-logo_200_200/0/1654721406036/atlassian_logo?e=1713398400&v=beta&t=0lZVB2xlCpTbR8QOziLN6511gVXH4YgLuM1AWwNa2lg",
+            "provider": "Atlassian",
+            "from": "Oct 2022", 
+            "to": "-", 
+            "cred": "https://university.atlassian.com/student/award/YLaJNNveyz9WNqmBrsKQwnYB"
+        }
+    ],
+    "experiences": [
+        {
+            "title": "DevOps Engineer",
+            "logo": "https://media.licdn.com/dms/image/C4D0BAQFHz9agyy675A/company-logo_200_200/0/1635337455615/fiverr_com_logo?e=1713398400&v=beta&t=11m0bZC_liP7YP78lH9Xrla62LHtF41u2znoJbjww68",
+            "company": "Fiverr",
+            "type": "Freelancer",
+            "from": "Sep 2023", 
+            "to": "Present", 
+            "summary": ""
+        },
+        {
+            "title": "DevOps Engineer",
+            "logo": "https://media.licdn.com/dms/image/C4E0BAQFAvA55uI9RQQ/company-logo_200_200/0/1630655510176/upwork_logo?e=1713398400&v=beta&t=LbPaIw-i1MlO6c38_O5xwnR4u5ogIZul5Tye9ZEsqUA",
+            "company": "Upwork",
+            "type": "Freelancer",
+            "from": "Oct 2022", 
+            "to": "Present", 
+            "summary": ""
+        },
+        {
+            "title": "DevOps Engineer",
+            "logo": "https://media.licdn.com/dms/image/C560BAQF6DUooFvKDiA/company-logo_200_200/0/1630654667761?e=1713398400&v=beta&t=L-2Df0CqzF4ja3igE9zZKbqs2gnqHwXfb9Y8QeLi76M",
+            "company": "Institute of Emerging Careers",
+            "type": "Apprenticeship",
+            "from": "Apr 2022", 
+            "to": "Nov 2025", 
+            "summary": ""
+        }
+    ]
 }

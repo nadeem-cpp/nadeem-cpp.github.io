@@ -41,10 +41,10 @@ body
     {
         margin-bottom: 20px;
     }
-    .chatbot-container
+    /* .chatbot-container
     {
-        /* width: 10%; */
-    }
+        width: 10%;
+    } */
     #social{
         margin-top: 20px;
     }
@@ -61,4 +61,23 @@ body
     /* width: 20%; */
     aspect-ratio: 2/1   ;
     object-fit: contain;
+}
+
+.myLink
+{
+    text-decoration: none;
+
+}
+
+/* certificates */
+.linkBtn
+{
+    border: 1px solid rgb(82, 79, 79); 
+    border-radius: 25px; padding: 7px; 
+    background-color: white;
+    text-decoration: none;
+}
+.linkBtn:hover
+{
+    background-color: rgb(175, 124, 124);
 }
