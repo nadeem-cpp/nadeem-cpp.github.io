@@ -77,5 +77,25 @@
             "to": "Nov 2025", 
             "summary": ""
         }
+    ],
+    "projects": [
+        {
+            "title": "Full Elastic and robust Wordpress Deployment",
+            "img": "https://media.licdn.com/dms/image/D4D2DAQHCC1RSRg-KDQ/profile-treasury-image-shrink_800_800/0/1693813329074?e=1706212800&v=beta&t=5OyEhdl2mYZeCRdKqm76Zmy0bT0kABQmgVp3ZjJQCwg",
+            "skills": "Elastic Load Balancing · Amazon VPC · AWS Auto Scaling · Terraform · Amazon Relational Database Service (RDS) · Amazon Route 53 · Amazon S3 · Amazon EC2",
+            "github": "#",
+            "from": "Aug 2023", 
+            "to": "Present", 
+            "summary": "Hosted and deployed WordPress in fully elastic manner using AWS core services like EC2, RDS and Route 53."
+        },
+        {
+            "title": "Tic-Tac-Toe",
+            "img": "https://media.licdn.com/dms/image/C4E0BAQEUoJmNVvDExw/company-logo_200_200/0/1631344390702?e=1713398400&v=beta&t=BOgSBhtcCMtdvVegjHRYtWjkeXb_MWOWLqvg2YIv-f0",
+            "github": "https://github.com/nadeem-cpp/semester-Projects",
+            "skills": "Problem Solving · Analytical Skills",
+            "from": "Aug 2021", 
+            "to": "Sep 2021", 
+            "summary": "A simple console base two player game which also save the record of winning player in the text file. Using C++ functional method and file handling technique i create this simple game completely from scratch."
+        }
     ]
 }
