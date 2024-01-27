@@ -81,7 +81,7 @@
     "projects": [
         {
             "title": "Full Elastic and robust Wordpress Deployment",
-            "img": "https://media.licdn.com/dms/image/D4D2DAQHCC1RSRg-KDQ/profile-treasury-image-shrink_800_800/0/1693813329074?e=1706212800&v=beta&t=5OyEhdl2mYZeCRdKqm76Zmy0bT0kABQmgVp3ZjJQCwg",
+            "img": "./images/projects/archicture.png",
             "skills": "Elastic Load Balancing · Amazon VPC · AWS Auto Scaling · Terraform · Amazon Relational Database Service (RDS) · Amazon Route 53 · Amazon S3 · Amazon EC2",
             "github": "#",
             "from": "Aug 2023", 

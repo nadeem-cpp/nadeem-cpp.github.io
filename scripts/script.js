@@ -131,7 +131,7 @@ class Views {
     <div class="me-3">
       <img
         src=${img}
-        style="height: 100px; width: 100px;" alt="company logo/tradmark">
+        style="height: 100px; width: 100px;" alt="project image">
     </div>
     <div>
       <span class="fw-bold">${title}</span>
