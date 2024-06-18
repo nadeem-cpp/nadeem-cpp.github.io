@@ -49,35 +49,6 @@
             "cred": "https://university.atlassian.com/student/award/YLaJNNveyz9WNqmBrsKQwnYB"
         }
     ],
-    "experiences": [
-        {
-            "title": "DevOps Engineer",
-            "logo": "https://media.licdn.com/dms/image/C4D0BAQFHz9agyy675A/company-logo_200_200/0/1635337455615/fiverr_com_logo?e=1713398400&v=beta&t=11m0bZC_liP7YP78lH9Xrla62LHtF41u2znoJbjww68",
-            "company": "Fiverr",
-            "type": "Freelancer",
-            "from": "Sep 2023", 
-            "to": "Present", 
-            "summary": ""
-        },
-        {
-            "title": "DevOps Engineer",
-            "logo": "https://media.licdn.com/dms/image/C4E0BAQFAvA55uI9RQQ/company-logo_200_200/0/1630655510176/upwork_logo?e=1713398400&v=beta&t=LbPaIw-i1MlO6c38_O5xwnR4u5ogIZul5Tye9ZEsqUA",
-            "company": "Upwork",
-            "type": "Freelancer",
-            "from": "Oct 2022", 
-            "to": "Present", 
-            "summary": ""
-        },
-        {
-            "title": "DevOps Engineer",
-            "logo": "https://media.licdn.com/dms/image/C560BAQF6DUooFvKDiA/company-logo_200_200/0/1630654667761?e=1713398400&v=beta&t=L-2Df0CqzF4ja3igE9zZKbqs2gnqHwXfb9Y8QeLi76M",
-            "company": "Institute of Emerging Careers",
-            "type": "Apprenticeship",
-            "from": "Apr 2022", 
-            "to": "Nov 2025", 
-            "summary": ""
-        }
-    ],
     "projects": [
         {
             "title": "Full Elastic and robust Wordpress Deployment",

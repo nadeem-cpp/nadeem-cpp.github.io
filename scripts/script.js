@@ -9,7 +9,6 @@ document.addEventListener("DOMContentLoaded", function () {
       $("#year").html(currentYear);
       loadAbout(data.intro);
       loadCert(data.certificates, view)
-      loadExper(data.experiences, view)
       loadProjects(data.projects, view)
     })
     .catch(error => console.error("Error fetching config:", error));
@@ -64,23 +63,6 @@ function loadCert(certificates, view) {
   $('#certificates').html(certViews)
 }
 
-function loadExper(experiences, view) {
-  var views = []
-  let lastIndex = experiences.length - 1
-
-  for (i in experiences) {
-    views.push(
-      view.getExpView(experiences[i].title, experiences[i].logo, experiences[i].company, experiences[i].type,
-        experiences[i].from, experiences[i].to, experiences[i].summary)
-    )
-    if (i != lastIndex) {
-      views.push("<hr>")
-    }
-
-  }
-  $('#experience').html(views)
-}
-
 class Views {
   getCertView(title, provider, link, from, to, imgSrc) {
     var certTag = `<div class="d-flex flex-row mb-3">
@@ -98,23 +80,6 @@ class Views {
     </div>
   </div>`
     return certTag
-  }
-
-  getExpView(title, logo, company, type, from, to, summary) {
-    var experTag = `<div class="d-flex flex-row">
-    <div class="me-3">
-      <img
-        src=${logo}
-        style="height: 100px; width: 100px;" alt="company logo/tradmark">
-    </div>
-    <div>
-      <span class="fw-bold">${title}</span>
-      <p>${company}, ${type}</p>
-      <p>${from} - ${to}</p>
-      <p>${summary}</p>
-    </div>
-  </div>`
-    return experTag
   }
 
   getProject(title, img, github, summary, from, to, skills) {
