@@ -87,15 +87,6 @@
             "from": "Aug 2023", 
             "to": "Present", 
             "summary": "Hosted and deployed WordPress in fully elastic manner using AWS core services like EC2, RDS and Route 53."
-        },
-        {
-            "title": "Tic-Tac-Toe",
-            "img": "https://media.licdn.com/dms/image/C4E0BAQEUoJmNVvDExw/company-logo_200_200/0/1631344390702?e=1713398400&v=beta&t=BOgSBhtcCMtdvVegjHRYtWjkeXb_MWOWLqvg2YIv-f0",
-            "github": "https://github.com/nadeem-cpp/semester-Projects",
-            "skills": "Problem Solving · Analytical Skills",
-            "from": "Aug 2021", 
-            "to": "Sep 2021", 
-            "summary": "A simple console base two player game which also save the record of winning player in the text file. Using C++ functional method and file handling technique i create this simple game completely from scratch."
         }
     ]
 }
