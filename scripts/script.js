@@ -93,7 +93,7 @@ class Views {
     <div class="col-md-6 d-flex flex-column">
       <span class="fw-bold">${title}</span>
       <span class="btn btn-success" style="width: 100px">
-        <a href=${github} class="link"> Github </a>
+        <a href=${github} class="myLink"> Github </a>
       </span>
       <p>${summary} </p>
       <p>${from} - ${to}</p>
