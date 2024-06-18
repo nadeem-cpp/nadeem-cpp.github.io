@@ -92,7 +92,7 @@ class Views {
     </div>
     <div class="col-md-6 d-flex flex-column">
       <span class="fw-bold">${title}</span>
-      <span class="btn btn-success" style="width: 100px">
+      <span class="btn btn-light mt-2 mb-2" style="width: 100px">
         <a href=${github} class="myLink"> Github </a>
       </span>
       <p>${summary} </p>
@@ -101,7 +101,6 @@ class Views {
         <b>Skills:</b>
         ${skills}
       </p>
-      <button class="btn btn-danger">See Details</button>
     </div>
   </div>`
 

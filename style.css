@@ -1,7 +1,21 @@
 body
 {
-    font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: Inconsolata,  sans-serif;
     line-height: 1.1;
+    background-image: url('images/pexels-tara-winstead-8386440.jpg'); 
+    background-size: cover;
+    color:white;
+    text-align: justify;
+}
+.nav{
+    color:white;
+}
+#hero{
+    /* background-image: url('images/pexels-tara-winstead-8386440.jpg'); 
+    background-size: cover; */
+    padding: 80px;
+    color: white;
+    /* height: 30rem; */
 }
 
 #profile {
