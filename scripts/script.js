@@ -17,8 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
 function loadAbout(intro) {
   document.getElementById("name").innerText = intro.name;
   document.getElementById("jobTitle").innerText = intro.jobTitle;
-  document.getElementById("about").innerText = intro.about;
-  document.querySelector("#calendly a").href = intro.calendly;
+  // document.getElementById("about").innerText = intro.about;
   document.querySelector("#linkedin").href = intro.linkedin;
   document.querySelector("#github").href = intro.github;
 }

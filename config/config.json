@@ -2,7 +2,11 @@
     "intro":{
         "name": "Muhammad Nadeem",
         "jobTitle": "Software Engineer",
-        "about": "Associate Cloud Engineer with 1+ years of experience in designing, developing, and maintaining cloud-based applications. AWS Certified Cloud Practitioner, demonstrating my understanding of the fundamental concepts of AWS and my ability to navigate the AWS Management Console, understand AWS security measures, and define the benefits of cloud computing. Strong skills in Python, Flask, and other programming languages. Experience with cloud security, networking, and storage. Excellent problem-solving and troubleshooting skills.",
+        "about": [
+            "Welcome! I'm Nadeem, a passionate software engineer with a proven track record of delivering high-quality, scalable, and user-friendly applications.",
+            "Expertise: I specialize in utilizing React-Native for mobile app development, Python for backend functionalities, and AWS for cloud infrastructure.",
+            "Driven by Innovation: My diverse skillset allows me to tackle complex challenges and create innovative solutions that meet your specific needs."
+        ],
         "calendly": "#",
         "linkedin": "https://www.linkedin.com/in/muhammadnadeem10",
         "github": "https://github.com/nadeem-cpp"
@@ -13,7 +17,7 @@
             "logo": "images/pucit.png",
             "degree": "BS in information Technology",
             "from": "2020",
-            "to": "2024" 
+            "to": "2024"
         },
         {
             "schoolName": "Punjab University College of information Technology, Lahore",
