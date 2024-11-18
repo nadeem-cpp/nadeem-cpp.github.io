@@ -9,7 +9,7 @@ const Hero = ({name, role}) => {
       
       {/* Subtext */}
       <p className="mt-6 text-lg md:text-2xl text-gray-400 tracking-wide text-center max-w-2xl">
-        Crafting efficient, secure, and scalable backend solutions with Python, Django, Flask, and AWS to fuel your digital experiences.
+        Crafting efficient, secure, and scalable software solutions with Python, and AWS to fuel your digital experiences.
       </p>
 
       {/* Call to Action Button */}

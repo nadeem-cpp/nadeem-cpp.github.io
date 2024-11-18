@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaLinkedin, FaGithub, FaWhatsapp } from 'react-icons/fa';
 import { FaUpwork } from 'react-icons/fa6';
-import { SiFiverr, SiFreelancer } from 'react-icons/si';
+import {  SiFreelancer } from 'react-icons/si';
 
 const Contact = () => {
   return (
@@ -19,9 +19,6 @@ const Contact = () => {
           </a>
           <a href="https://github.com/nadeem-cpp" target="_blank" rel="noreferrer" className="transition-all transform hover:scale-110">
             <FaGithub size={40} className="hover:text-gray-400 text-green-400" />
-          </a>
-          <a href="https://www.fiverr.com/muhammadnad22" target="_blank" rel="noreferrer" className="transition-all transform hover:scale-110">
-            <SiFiverr size={40} className="hover:text-green-500 text-green-400" />
           </a>
           <a href="https://www.upwork.com/freelancers/~0131a9f2641a537bcc?mp_source=share" target="_blank" rel="noreferrer" className="transition-all transform hover:scale-110">
             <FaUpwork size={40} className="hover:text-green-400 text-green-400" />

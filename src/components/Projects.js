@@ -1,46 +1,13 @@
 import React, { useState } from 'react';
 
-const Projects = () => {
+const Projects = ({projects}) => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
-
-  const projectItems = [
-    {
-      name: 'mdcatwallah.com Backend',
-      description: 'A robust backend for mdcatwallah.com using Django and PostgreSQL.',
-      link: 'https://mdcatwallah.com',
-    },
-    {
-      name: 'app.omioform Backend',
-      description: 'A scalable backend for app.omioform built with Flask and MongoDB.',
-      link: 'https://app.omioform.com',
-    },
-    {
-      name: 'Freelancing Projects',
-      description: 'Freelance projects on Python and AWS through Fiverr, Upwork, and Freelancer.com.',
-      link: '', // No link, can be empty
-    },
-    {
-      name: 'mdcatwallah.com Backend',
-      description: 'A robust backend for mdcatwallah.com using Django and PostgreSQL.',
-      link: 'https://mdcatwallah.com',
-    },
-    {
-      name: 'app.omioform Backend',
-      description: 'A scalable backend for app.omioform built with Flask and MongoDB.',
-      link: 'https://app.omioform.com',
-    },
-    {
-      name: 'Freelancing Projects',
-      description: 'Freelance projects on Python and AWS through Fiverr, Upwork, and Freelancer.com.',
-      link: '', // No link, can be empty
-    },
-  ];
 
   return (
     <section className="py-16 bg-gray-900 text-white">
       <h2 className="text-center text-3xl font-bold mb-8 w-full text-green-400 glitch" data-text="Projects">Projects</h2>
       <div className="flex flex-wrap justify-center items-center px-8 md:px-16 gap-8">
-        {projectItems.map((project, index) => (
+        {projects.map((project, index) => (
           <div
             key={index}
             className="relative w-72 h-64 bg-gray-800 rounded-lg shadow-lg transition-all duration-500 transform hover:-translate-y-4 hover:scale-105 cursor-pointer"

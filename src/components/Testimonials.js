@@ -1,31 +1,13 @@
 import React, { useState } from 'react';
 
-const Testimonials = () => {
+const Testimonials = ({testimonials}) => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
-
-  const testimonialItems = [
-    {
-      name: 'John Doe',
-      feedback: 'Muhammad Nadeem is an exceptional backend developer. His work on my project was efficient, secure, and delivered on time!',
-      company: 'TechCorp',
-    },
-    {
-      name: 'Jane Smith',
-      feedback: 'Highly professional and skilled. Nadeem delivered a highly scalable backend for our web platform.',
-      company: 'Webify',
-    },
-    {
-      name: 'Robert Johnson',
-      feedback: 'Amazing work! Nadeem built a robust backend for our e-commerce platform using Flask and PostgreSQL.',
-      company: 'E-Shop',
-    },
-  ];
 
   return (
     <section className="py-16 bg-gray-900 text-white">
       <h2 className="text-center text-3xl font-bold mb-8 w-full text-green-400 glitch" data-text="Client Testimonials">Client Testimonials</h2>
       <div className="flex flex-wrap justify-center items-center px-8 md:px-16 gap-8">
-        {testimonialItems.map((testimonial, index) => (
+        {testimonials.map((testimonial, index) => (
           <div
             key={index}
             className="relative w-80 h-64 bg-gray-800 rounded-lg shadow-lg transition-all duration-500 transform hover:-translate-y-4 hover:scale-105 cursor-pointer"
