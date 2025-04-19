@@ -2,12 +2,13 @@ import React, { useState } from 'react';
 
 const Projects = ({projects}) => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
+  const sortedProjects = [...projects].sort((a, b) => b.year - a.year)
 
   return (
     <section className="py-16 bg-gray-900 text-white">
-      <h2 className="text-center text-3xl font-bold mb-8 w-full text-green-400 glitch" data-text="Projects">Projects</h2>
+      <h2 className="text-center text-3xl font-bold mb-8 w-full text-green-400 glitch" >Projects</h2>
       <div className="flex flex-wrap justify-center items-center px-8 md:px-16 gap-8">
-        {projects.map((project, index) => (
+        {sortedProjects.map((project, index) => (
           <div
             key={index}
             className="relative w-72 h-64 bg-gray-800 rounded-lg shadow-lg transition-all duration-500 transform hover:-translate-y-4 hover:scale-105 cursor-pointer"

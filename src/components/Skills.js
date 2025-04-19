@@ -1,14 +1,15 @@
 import React from 'react';
 
-
 const Skills = ({ skills }) => {
 
   return (
-    <section className="py-16 bg-gray-900 text-white">
-      <h2 className="text-center text-3xl font-bold mb-8 w-full text-green-400 glitch" data-text="Skills & Frameworks">
-        Skills & Frameworks
+    <section className="py-16 bg-gray-900">
+      <h2 className="text-center text-3xl font-bold mb-8 w-full text-green-400">
+        Skills
       </h2>
-      <div className="grid grid-cols-2 md:grid-cols-3 gap-8 px-8 md:px-16">
+      {/* skills section */}
+
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-8 px-8 md:px-16 text-white">
         {skills.map((skill, index) => (
           <div
             key={index}
